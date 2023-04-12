@@ -1,0 +1,86 @@
+@media (max-width: 768px){
+  .grid {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows:repeat(4,auto);
+    gap: 20px;
+  }
+  body {
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+  }
+
+  #scope{
+    grid-column: 1/1;
+    grid-row: 2/3;
+  }
+  #team{
+    grid-column: 1/1;
+    grid-row: 3/4;
+  }
+  #primary{
+    grid-column: 1/1;
+    grid-row: 4/5;
+  }
+  #timeline {
+    grid-column: 1/1;
+    grid-row: 5/6;
+  }
+
+
+  .goals {
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto;
+    gap: 0px;
+  }
+
+
+  #scope .container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap:20px;
+  }
+  
+
+  .menber {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap:20px;
+  }
+  .menber i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  .primary {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap:20px;
+  }
+  .primary i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  .project-time {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .project{
+    margin-top: 0px;
+    border-bottom: 2px dotted #4dabf7;
+  }
+  
+  .cs{
+    font-size:40px;
+    /* color:#fff; */
+    border-color: rgb(192, 23, 230); 
+    margin-top: 0px;
+  }
+}
