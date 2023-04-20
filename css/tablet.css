@@ -131,7 +131,7 @@
   /* '''' id="job-info" '''' */
 
   #job-info > .container {
-    width: 96%;
+    width: 97%;
     display: grid;
     grid-template-columns: 50% 50%;
     gap: 12px;
